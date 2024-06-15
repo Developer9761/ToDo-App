@@ -1,0 +1,61 @@
+.box{
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(127, 186, 187);
+}
+#heading{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 150px 100px 80px;
+    column-gap:10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+#input-todo{
+  border: none;
+  background-color: rgb(148, 192, 192);
+}
+#todoDate{
+    border: none;
+    background-color: rgb(148, 192, 192);
+}
+:hover#input-todo{
+    cursor: pointer;
+   border: 2px solid rgb(254, 171, 185);
+}
+:hover#todoDate{
+    cursor: pointer;
+    border:2px solid rgb(254, 171, 185);
+     
+}
+#deletebutton{
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(250, 71, 71);
+    /* border: 2px solid black; */
+    border-radius: 7px;
+}
+#AddButton{
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    background-color: rgb(3, 185, 67);
+    /* border: 2px solid black; */
+    border-radius: 7px;
+
+}
+:hover#AddButton{
+     
+    border:2px solid rgb(254, 171, 185);
+    background-color: rgb(126, 252, 126);
+}
+:hover#deletebutton{
+     
+    border:2px solid rgb(142, 254, 202);
+    background-color: rgb(247, 94, 94);
+}
